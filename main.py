@@ -4,7 +4,4 @@ k= int(input("Введите количество яблок"))
 everyone=(k//n)
 print(f'{everyone} яблоко каждому  из лиц')
 ostatok=k%n
-if n%k !=0:
-    print(f'{ostatok} яблок осталось в корзине')
-if n>k:
-    print('вас слишком много')
+print(f"остаток равен  {ostatok}")
